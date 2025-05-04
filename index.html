@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Day - Your Daily Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <div class="sun-icon"></div>
+                <span>Good Day</span>
+            </a>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Start Your Day with Good Day</h1>
+                <p>Discover our amazing products that will make every day a good day. From fashion to home decor, we have everything you need to brighten up your life.</p>
+                <a href="#shop" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Products</h2>
+                <p>Discover our handpicked collection of high-quality products</p>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="fashion">Fashion</button>
+                <button class="filter-btn" data-filter="electronics">Electronics</button>
+                <button class="filter-btn" data-filter="home">Home & Living</button>
+            </div>
+            <div class="products">
+                <!-- Product 1 -->
+                <div class="product" data-category="fashion">
+                    <div class="product-img">
+                        <img src="https://f.media-amazon.com/images/I/61nXksVDhPS._AC_UL480_FMwebp_QL65_.jpg" alt="Product Image">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fashion</div>
+                        <h3 class="product-title">Stylish Sunglasses</h3>
+                        <div class="product-price">$29.99</div>
+                        <button class="btn product-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product" data-category="electronics">
+                    <div class="product-img">
+                        <img src="https://f.media-amazon.com/images/I/61oCISLE+PL._AC_UY327_FMwebp_QL65_.jpg" alt="Product Image">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Electronics</div>
+                        <h3 class="product-title">Wireless Earbuds</h3>
+                        <div class="product-price">$59.99</div>
+                        <button class="btn product-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product" data-category="home">
+                    <div class="product-img">
+                        <img src="https://f.media-amazon.com/images/I/512CJSn4FFL._AC_UL480_FMwebp_QL65_.jpg" alt="Product Image">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Home & Living</div>
+                        <h3 class="product-title">Scented Candle</h3>
+                        <div class="product-price">$19.99</div>
+                        <button class="btn product-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product" data-category="fashion">
+                    <div class="product-img">
+                        <img src="https://f.media-amazon.com/images/I/61m4wKTAYsS._AC_UL480_FMwebp_QL65_.jpg" alt="Product Image">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fashion</div>
+                        <h3 class="product-title">Summer Hat</h3>
+                        <div class="product-price">$24.99</div>
+                        <button class="btn product-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="product" data-category="electronics">
+                    <div class="product-img">
+                        <img src="https://f.media-amazon.com/images/I/711NXCmUfbL._AC_UL480_FMwebp_QL65_.jpg" alt="Product Image">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Electronics</div>
+                        <h3 class="product-title">Smart Watch</h3>
+                        <div class="product-price">$99.99</div>
+                        <button class="btn product-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="product" data-category="home">
+                    <div class="product-img">
+                        <img src="https://f.media-amazon.com/images/I/51N3dTg2M0L._AC_UL480_FMwebp_QL65_.jpg" alt="Product Image">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Home & Living</div>
+                        <h3 class="product-title">Throw Pillow</h3>
+                        <div class="product-price">$34.99</div>
+                        <button class="btn product-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="product" data-category="fashion">
+                    <div class="product-img">
+                        <img src="https://f.media-amazon.com/images/I/61BygHH-M2L._AC_UL480_FMwebp_QL65_.jpg" alt="Product Image">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fashion</div>
+                        <h3 class="product-title">Leather Wallet</h3>
+                        <div class="product-price">$49.99</div>
+                        <button class="btn product-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="product" data-category="electronics">
+                    <div class="product-img">
+                        <img src="https://f.media-amazon.com/images/I/81Dl7qzd40L._AC_UY327_FMwebp_QL65_.jpg" alt="Product Image">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Electronics</div>
+                        <h3 class="product-title">Bluetooth Speaker</h3>
+                        <div class="product-price">$79.99</div>
+                        <button class="btn product-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+                <p>Learn more about our story and mission</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://a2.storyblok.com/f/224535/1900x1000/4de59630cc/banner-about-us-mishmash.jpg/m/2000x0/" alt="About Us Image">
+                </div>
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Good Day was founded in 2020 with a simple mission: to make every day a good day through exceptional products and services. We believe that the little things in life can make a big difference in how you feel and experience each day.</p>
+                    <p>Our team of passionate individuals works tirelessly to curate a collection of high-quality products that combine style, functionality, and sustainability. We source products from ethical manufacturers and prioritize eco-friendly options whenever possible.</p>
+                    <p>At Good Day, customer satisfaction is at the heart of everything we do. We're committed to providing an exceptional shopping experience from browsing to delivery.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">5000+</div>
+                            <div class="stat-text">Happy Customers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-text">Products</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-text">Countries Served</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Blog</h2>
+                <p>Latest news, tips, and inspiration</p>
+            </div>
+            <div class="blog-posts">
+                <!-- Blog Post 1 -->
+                <div class="blog-post">
+                    <div class="blog-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqsTb23ILcRH0PlfSbefDAxbv8MF0aIp3rgQ&s" alt="Blog Image">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">May 2, 2025</div>
+                        <h3 class="blog-title">10 Ways to Make Your Day Better</h3>
+                        <p class="blog-excerpt">Discover simple yet effective ways to improve your daily routine and make every day a good day. From morning rituals to evening wind-down practices...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <div class="blog-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6SBVe7o3DyRA0vb3bH78MDD5ZUO9bxt0YTw&s" alt="Blog Image">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 28, 2025</div>
+                        <h3 class="blog-title">Summer Fashion Trends 2025</h3>
+                        <p class="blog-excerpt">Get ahead of the curve with our guide to this summer's hottest fashion trends. From vibrant colors to sustainable materials, we cover everything...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="blog-post">
+                    <div class="blog-img">
+                        <img src="data:image/jpeg;base64,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" alt="Blog Image">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">April 20, 2025</div>
+                        <h3 class="blog-title">Creating a Peaceful Home Environment</h3>
+                        <p class="blog-excerpt">Transform your living space into a sanctuary of peace and positivity with these simple home decor tips and tricks that won't break the bank...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our friendly team</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>123 Sunshine Street, Happy City, HC 10001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <p>(123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <p>hello@goodday.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-details">
+                            <h4>Working Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p>Saturday: 10:00 AM - 4:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="sun-icon"></div>
+                        <span>Good Day</span>
+                    </div>
+                    <p class="footer-text">Making every day a good day with quality products and exceptional service.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">FB</a>
+                        <a href="#" class="social-link">TW</a>
+                        <a href="#" class="social-link">IG</a>
+                        <a href="#" class="social-link">PT</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#shop">Fashion</a></li>
+                        <li><a href="#shop">Electronics</a></li>
+                        <li><a href="#shop">Home & Living</a></li>
+                        <li><a href="#shop">Beauty</a></li>
+                        <li><a href="#shop">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p class="footer-text">Subscribe to our newsletter for updates and exclusive offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Good Day. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">↑</a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
